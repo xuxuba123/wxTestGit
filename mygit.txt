@@ -1,3 +1,15 @@
-1、姓名 武旭
-2、年龄 24
-3、性别
+//MyGit 学习
+
+1、创建版本库
+	cd C：
+	cd XuxubaWu	定位到C:\XuxubaWu\
+	mkdir MyGit	创建文件夹
+	cd MyGit	定位到C:\XuxubaWu\MyGit\
+	pwd		查看定位的地址
+	git init	初始化
+	
+2、文件操作
+	git add	mygit.txt	添加mygit.txt到暂存区
+	git commit -m "添加mygit"	提交文件到仓库，-m备注信息
+	git status	查看状态
+	git diff	查看修改的不同
