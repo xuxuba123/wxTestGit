@@ -1,5 +1,7 @@
 //MyGit 学习
 
+重命名：git mv oldName newName
+
 1、创建版本库
 	cd C：
 	cd XuxubaWu	定位到C:\XuxubaWu\
@@ -36,4 +38,10 @@
 	1、是使用 git add 把文件添加进去，实际上就是把文件添加到暂存区。
 	2、使用git commit提交更改，实际上就是把暂存区的所有内容提交到当前分支上。
 	
+5、撤销修改
+	git checkout -- mygit.txt 撤销最近一次修改内容
+	
+6、删除文件
+	rm fileName	删除文件fileName
+	此时两个选择：1、commit 2、恢复\撤销删除 git checkout -- 
 	
